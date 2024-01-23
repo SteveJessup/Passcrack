@@ -51,7 +51,7 @@ class PasswordEncryptor:
 # Example usage:
 hash_type = "SHA1"
 salt = "d"
-search = "$SHA1$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I="
+search = "PASTE SHA1 HERE!"
 wordlist = '/usr/wordlist/rockyou.txt'
 
 # Create an instance of the PasswordEncryptor class
