@@ -52,7 +52,7 @@ class PasswordEncryptor:
 hash_type = "SHA1"
 salt = "d"
 search = "PASTE SHA1 HERE!"
-wordlist = '/usr/wordlist/rockyou.txt'
+wordlist = '/usr/share/wordlists/rockyou.txt'
 
 # Create an instance of the PasswordEncryptor class
 encryptor = PasswordEncryptor(hash_type)
